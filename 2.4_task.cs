@@ -31,6 +31,13 @@ class FifthTask
                     arr[j + 1] = temp;
                 }
             }
+            PrintArray(arr); 
         }
+    }
+    
+    static void PrintArray(int[] arr)
+    {
+        string result = string.Join(", ", arr);
+        Console.WriteLine("Промежуточный массив: " + result);
     }
 }
